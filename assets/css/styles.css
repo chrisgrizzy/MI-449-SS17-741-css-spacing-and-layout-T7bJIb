@@ -283,7 +283,8 @@ header nav li:last-child {
 }
 
 .reviews {
-  display: inline-block;
+  align-items: center;
+  display: block;
   background-color: #fff;
   font-size: 22px;
   font-weight: 300;
@@ -291,6 +292,7 @@ header nav li:last-child {
   margin-bottom: 20px;
   text-align: center;
   padding: 0;
+  margin-top: 200px;
 }
 
 .contact form {
@@ -364,8 +366,4 @@ footer p a {
   footer {
     padding: 80px 15px;
   }
-}
-
-@media (max-width: 1200px) {
-  #bsaHolder { display: none; }
 }
